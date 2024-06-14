@@ -10,10 +10,7 @@ const port = process.env.PORT || 3000;
 app.use(bodyParser.json());
 
 const corsOptions = {
-    origin: [
-        'http://localhost:5173',
-        'https://tic-tac-toe-xo-1.web.app/'
-    ],
+    origin: 'https://tic-tac-toe-xo-1.web.app',
     optionsSuccessStatus: 200,
 };
 
